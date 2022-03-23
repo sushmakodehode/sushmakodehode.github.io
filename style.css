@@ -1,0 +1,31 @@
+.headingBorder{
+    border: 20px;
+    background-color: burlywood;
+    font-size: 20px;
+    color:brown;
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 20px 20px;
+    border-style: solid ;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}   
+     
+.floatright
+{
+    float:right;
+     
+}                         
+        
+
+ small{
+     margin-left: 50px;
+     color:olive;
+      }
+ 
+        .img {
+                
+                 border: 20px double olive;
+                 
+             }
