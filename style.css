@@ -1,3 +1,5 @@
+
+<!-- den er headerborder for stor box og bruker flexbox-->
 .headingBorder{
     border: 20px;
     background-color: burlywood;
@@ -11,19 +13,20 @@
     flex-direction: row;
     justify-content: space-between;
 }   
-     
+ 
+<!--  flyttet bildet til høyre side-->
 .floatright
 {
     float:right;
      
 }                         
         
-
+<!-- her text under box er small-->
  small{
      margin-left: 50px;
      color:olive;
       }
- 
+      <!-- den er bilde i headerog border be double-->
         .img {
                 
                  border: 20px double olive;
