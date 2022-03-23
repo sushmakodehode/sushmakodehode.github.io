@@ -1,5 +1,5 @@
 
-<!-- den er headerborder for stor box og bruker flexbox-->
+/* Sushma kode starter her  */
 .headingBorder{
     border: 20px;
     background-color: burlywood;
@@ -13,22 +13,154 @@
     flex-direction: row;
     justify-content: space-between;
 }   
- 
-<!--  flyttet bildet til høyre side-->
+     
 .floatright
 {
     float:right;
      
 }                         
         
-<!-- her text under box er small-->
+
  small{
      margin-left: 50px;
      color:olive;
       }
-      <!-- den er bilde i headerog border be double-->
+ 
         .img {
                 
                  border: 20px double olive;
                  
              }
+/* ---- / Sushma kode slutter her ------- */
+
+/* ----- Atle's kode starer her */
+* {
+    margin: 0;
+}
+
+footer{
+    display:flex;
+
+    background-color: black;
+    /* border: 2px solid burlywood; */
+    margin-top: 30px;
+    padding: 30px;
+    
+
+    color: burlywood;
+   
+}
+.ramme{ 
+    border: 2px solid black;
+    padding: 50px 0;
+
+ 
+}
+/* - - - - - -- - - - - - - -- - - - -- - - - - - -- - - - - -- - - - - - */
+main {
+    background-color: black;
+    color:white;
+}
+
+.flexiBoks{
+    display: flex;
+}
+
+.venstreBoks {
+    color: white;
+    min-width: 500px;;
+    /* border: 2px solid red; */
+
+    margin: 20px;
+    padding: 50px 15px 15px 75px;
+}
+
+.høyreBoks {
+    border: 3px solid black;
+    color: white;
+
+    
+    margin: 50px 300px;
+   
+    padding: 5px;
+    
+    width: 350px;
+    height: 450px;
+
+    box-shadow: 5px 5px 10px burlywood;
+}
+
+a{
+    color: olive;
+}
+.h2venstre{
+    border: 2px solid black;
+    /* border-top: none;
+    border-left: none; */
+    box-shadow: 1px 1px 20px burlywood;
+    margin: 5px -17px;
+    padding: 40px 15px;
+    
+    text-align: center;
+
+    background-color: black;
+    font-size: 30px;
+    text-shadow: 1px 2px brown;
+}
+
+.h2høyre{
+    border: 2px solid black;
+    margin: 5px -8px;
+    padding: 40px 15px;
+    
+    text-align: center;
+
+    background-color: black;
+    font-size: 30px;
+    text-shadow: 1px 2px brown;
+}
+
+li{
+    text-align: center;
+   
+    margin: 2px 0 2px -40px;
+    padding: 2px;
+
+    list-style-position: inside;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+button {
+    box-shadow: 2px 2px 50px white;
+    color: olive;
+    background-color: black;
+    margin-left: 15px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.nedreTekst {
+    /* border:2px solid brown; */
+    font-family: fantasy;
+    font-size: 20px;
+
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px whitesmoke;
+
+    color: black;;
+
+    padding: 50px;
+   
+    margin-left: 100px;
+    margin-right: 480px;  /* Her kan vi velge avstanden for emojien til tekst */
+}
+
+.emojie {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    
+    margin-top: 50px;
+
+}
