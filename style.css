@@ -14,12 +14,7 @@
     flex-direction: row;
     justify-content: space-between;
 }   
- /*-- flytt bildet til høyre side--*/   
-.floatright
-{
-    float:right;
-     
-}                         
+                       
         
 /*-- det er for tekst under boksv--*/
  small{
